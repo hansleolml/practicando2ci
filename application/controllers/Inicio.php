@@ -7,4 +7,12 @@ class Inicio extends CI_Controller {
 	{
 		$this->load->view('index');
 	}
+	public function inicios()
+	{
+		$this->load->view('inicios.php');
+	}
+	public function navegacion()
+	{
+		$this->load->view('navegacion.php');
+	}
 }
